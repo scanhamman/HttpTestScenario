@@ -76,6 +76,7 @@ impl WebServiceHandler {
         orders
     }
 }
+
 // Implement the Handler trait
 impl Handler for WebServiceHandler {
     fn handle(req: &HttpRequest) -> HttpResponse {
